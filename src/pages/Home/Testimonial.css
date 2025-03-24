@@ -1,6 +1,7 @@
 
 .testimonial-section{
-    margin-top: 5rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 .testimony-header-content{
     text-align: center;
@@ -37,6 +38,9 @@
     height: 10rem;
     border-radius: 50%;
     border: 2px solid var(--soft-blue);
+  }
+  .testimony-user-image-wrapper:hover{
+    border: 2px solid var(--pure-white);
   }
   .testimony-user-image-wrapper img{
     width: 100%;

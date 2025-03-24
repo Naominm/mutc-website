@@ -1,0 +1,25 @@
+.icon-container-element {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 18rem;
+    height: 5rem;
+  }
+  .icon-container-element p {
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+  .image-container {
+    width: 4rem;
+    height: 4rem;
+  }
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .icon-container-element p {
+    font-size: 1.5rem;
+  }
+  
