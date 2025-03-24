@@ -9,15 +9,16 @@ interface CardContentProps{
     user:string;
     name:string;
     description:string;
+    text:string;
 }
 function Testimonial() {
     return ( 
         <section className="testimonial-section">
             <TestimonialHeader/>
             <div className="testimony-elements">
-                <CardContent user={Testimony1} name='Victory Njeri' description='good'/>
-                <CardContent user={Testimony1} name='Victory Njeri' description='good'/>
-                <CardContent user={Testimony1} name='Victory Njeri' description='good'/>
+                <CardContent user={Testimony2} name='Victory Njeri' text='chairperson' description='delivering cutting-edge services and unmatched expertise to meet the diverse needs'/>
+                <CardContent user={Testimony2} name='Victory Njeri' text='chairperson' description='delivering cutting-edge services and unmatched expertise to meet the diverse needs'/>
+                <CardContent user={Testimony3} name='Victory Njeri' text='chairperson' description='delivering cutting-edge services and unmatched expertise to meet the diverse needs'/>
             </div>
         </section>
      );
@@ -30,7 +31,7 @@ function TestimonialHeader(){
     )
 }
 
-function CardContent({user,name,description}:CardContentProps){
+function CardContent({user,name,description,text}:CardContentProps){
     return(
         <div className="parent-card-content">
             <div className="cards-content-container-element">
@@ -39,6 +40,7 @@ function CardContent({user,name,description}:CardContentProps){
                         <img src={user} alt="" />
                     </div>
                     <h3 className="user-name">{name}</h3>
+                    <p>{text}</p>
                     <p className="user-description">{description}</p>
                 </div>
             </div>

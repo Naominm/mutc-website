@@ -1,7 +1,9 @@
+import { useState,useEffect } from "react"
 import Image1 from "../../assets/mutc-images/hero1.jpg"
 import Image2 from "../../assets/mutc-images/hero2.jpg"
 import Image3 from "../../assets/mutc-images/hero3.jpg"
 import "./Hero.css"
+
 
 type HeroContentsProp={
     Image:string;
@@ -9,23 +11,49 @@ type HeroContentsProp={
     CallToAction:string;
 
 }
+const heroData: HeroContentsProp[] = [
+    { Image: Image1, Tagline: "Innovation for Prosperity", CallToAction: "Contact Us" },
+    { Image: Image2, Tagline: "Empowering the Future", CallToAction: "Discover More" },
+    { Image: Image3, Tagline: "Shaping Tomorrow", CallToAction: "Join Us" }
+];
+
 function HeroSection() {
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentIndex((prevIndex) => (prevIndex + 1) % heroData.length);
+        }, 4000); 
+    
+        return () => clearInterval(interval); 
+    }, []);
+    
     return (  
         <div className="hero-section">
-            <HeroContents Image={Image1} Tagline="Innovation for Prosperity" CallToAction="contactus"/>
+       <HeroContents currentIndex={currentIndex} />
         </div>
     );
 }
-function HeroContents({Image, Tagline}:HeroContentsProp){
+function HeroContents({ currentIndex }: { currentIndex: number }){
     return(
         <div className="hero-contents">
            
             <div className="hero-image-wrapper">
             <div className="overlay"></div>
-            <img src={Image} alt="" />
+          {
+            heroData.map((item,index)=>(
+                <img
+                key={index}
+                alt=""
+                src={item.Image}
+                className={index===currentIndex? 'active':''}
+                />
+                
+            ))
+          }
             </div>
       <div className="hero-text-content">
-      <h1>{Tagline}</h1>
+      <h1>{heroData[currentIndex].Tagline}</h1>
       <CallToAction/>
       </div>
       
