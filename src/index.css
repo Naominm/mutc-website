@@ -1,13 +1,14 @@
 :root{
   --pure-white:#FFFFFF;
-  --soft-pink:#FFB6C1;
-  --bold-pink:#FF4081;
+  --soft-blue: #ADD8E6; 
+  --bold-blue: #007BFF;
+  --navy-blue:#091E3E;
   --pure-black:#000000;
   --color-dark-black: #131010;
   --lighter-gray:#4A4A4A;
   --darker-gray:#333333;
   --color-dark-gray:#121212;
-  --color-shade-pink:#FF79B0;
+  --color-shade-blue: #5DADE2;
   --color-light-gray:#E0E0E0;
   --primary-font:"Roboto", sans-serif;
  --secondary-font:"Open Sans", sans-serif;
