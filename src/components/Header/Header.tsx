@@ -72,7 +72,7 @@ function Header() {
         </NavLink>
         <NavLink
           className={({ isActive }) => (isActive ? "active-link link" : "link")}
-          to="/"
+          to="/Tracks"
         >
           Tracks
         </NavLink>

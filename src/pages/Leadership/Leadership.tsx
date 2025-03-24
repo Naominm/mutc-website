@@ -13,14 +13,10 @@ import Image9 from "../../assets/mutc-images/user9.jpg"
 import Image10 from "../../assets/mutc-images/user10.jpg"
 import Image11 from "../../assets/mutc-images/user11.jpg"
  import FooterElement from "../../components/Footer/Footer";
+ import LeadershipContents from "../../components/Hero/Hero";
 import "./Leadership.css"
 
 
-interface LeadershipContentsProps{
-    Heading:string;
-    Text:String;
-    Video:string
-}
 
 interface CardProps {
     user: string;
@@ -207,21 +203,7 @@ function Leadership() {
      );
 }
 
-function LeadershipContents({Heading, Text, Video}:LeadershipContentsProps){
-    return(
-        <div className="main-container">
-            <div className="text-section">
-                <h1>{Heading}</h1>
-                <p>{Text}</p>
-            </div>
-            <div className="video-section">
-                <div className="video-wrapper">
-                 <video src={Video}></video>
-                </div>
-            </div>
-        </div>
-    )
-}
+
 
 
 function CardComponent({ user, name, description, text ,bio,socialLinks,title}: CardProps){
