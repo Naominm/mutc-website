@@ -17,3 +17,18 @@
 .text-section p{
     font-size: 2rem;
 }
+
+.border{
+    padding: 3rem;
+    background-color:var(--soft-blue);
+}
+.container-element{
+    margin-top: 3rem;
+}
+.heading{
+    margin-top: 5rem;
+    text-align: center;
+}
+.card-container{
+    border: 2px solid red;
+}
