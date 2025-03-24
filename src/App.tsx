@@ -1,12 +1,18 @@
+import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
-import FooterElement from "./components/Footer/Footer";
+import Leadership from "./pages/Leadership/Leadership";
 function App() {
   return (
     <div>
       <Header />
-      <Home />
-      <FooterElement/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/Leadership" element={<Leadership/>}/>
+        
+      </Routes>
+     
+      {/* <FooterElement/> */}
     </div>
   );
 }

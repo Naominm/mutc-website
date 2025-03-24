@@ -66,7 +66,7 @@ function Header() {
         </NavLink>
         <NavLink
           className={({ isActive }) => (isActive ? "active-link link" : "link")}
-          to="/"
+          to="/Leadership"
         >
           Leadership
         </NavLink>

@@ -1,6 +1,7 @@
 import HeroSection from "./Hero";
 import AboutSection from "./About";
 import Testimonial from "./Testimnonial";
+import FooterElement from "../../components/Footer/Footer";
 
 function Home() {
     return (
@@ -8,6 +9,7 @@ function Home() {
             <HeroSection/>
             <AboutSection/>
             <Testimonial/>  
+            <FooterElement/>
         </div>
      );
 }
