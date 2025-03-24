@@ -32,12 +32,12 @@
 }
 .leadership-section-cards{
     display: flex;
-    border: 2px solid red;
     justify-content: center;
     margin-top: 5rem;
+    margin-bottom: 10rem;
 }
 .card {
-    width: 220px;
+    width: 250px;
     height: 300px;
     perspective: 1000px;
 }
@@ -70,7 +70,7 @@
 
 .card-front {
     background-color: var(--pure-white);
-    color: var(--color-shade-blue);
+    color: var(--color-black-dark);
 }
 
 .card-front .user-image {
@@ -88,15 +88,17 @@
     color: var(--text-color);
     transform: rotateY(180deg);
     text-align: center;
-    padding: 1rem;
+    padding-top: 1rem;
 }
 
 .card-back p {
-    font-weight: 600;
-    margin-bottom: 0.5rem;
+    font-family: var(  --font-secondary);
+    font-weight: 700;
+    margin-top: 0.5rem;
 }
 
 .card-back span {
+    font-family: var(  --font-secondary);
     color: var(--pure-white);
     font-weight: 700;
 }
@@ -106,4 +108,21 @@
     justify-content: center;
     gap: 5rem;
     flex-wrap: wrap;
+}
+.bio{
+    font-family: var(  --font-secondary);
+}
+.social-icons{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    transition: all 2s;
+}
+.social-icons:hover{
+    color: var(--soft-blue);
+    transform: translateY(-1rem);
+}
+.social-icons a{
+text-decoration: none;
+color: var(--color-blue);
 }
