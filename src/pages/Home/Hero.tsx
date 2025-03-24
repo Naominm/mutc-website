@@ -1,4 +1,6 @@
 import Image1 from "../../assets/mutc-images/hero1.jpg"
+import Image2 from "../../assets/mutc-images/hero2.jpg"
+import Image3 from "../../assets/mutc-images/hero3.jpg"
 import "./Hero.css"
 
 type HeroContentsProp={
@@ -10,7 +12,7 @@ type HeroContentsProp={
 function HeroSection() {
     return (  
         <div className="hero-section">
-            <HeroContents Image={Image1} Tagline="Hello welcome to the club" CallToAction="contactus"/>
+            <HeroContents Image={Image1} Tagline="Innovation for Prosperity" CallToAction="contactus"/>
         </div>
     );
 }

@@ -68,19 +68,19 @@ function Header() {
           className={({ isActive }) => (isActive ? "active-link link" : "link")}
           to="/"
         >
-          Destination
+          Leadership
         </NavLink>
         <NavLink
           className={({ isActive }) => (isActive ? "active-link link" : "link")}
           to="/"
         >
-          Trip Types
+          Tracks
         </NavLink>
         <NavLink
           className={({ isActive }) => (isActive ? "active-link link" : "link")}
           to="/"
         >
-          Contact Us
+         Events
         </NavLink>
       </div>
       </div>
