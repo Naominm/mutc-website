@@ -66,9 +66,14 @@ font-weight: 400;
    
 }
 .hamburger-menu-container {
-    display: flex;
-    font-size: 3rem;
-    line-height: 2rem;
-    padding: 0.5rem;
+    display: none; 
 }
 
+@media screen and (max-width:62em) {
+    .hamburger-menu-container {
+        display: flex;
+        font-size: 3rem;
+        line-height: 2rem;
+        padding: 0.5rem;
+    } 
+}

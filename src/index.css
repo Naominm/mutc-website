@@ -1,19 +1,19 @@
-:root{
-  --pure-white:#FFFFFF;
-  --soft-blue: #ADD8E6; 
-  --bold-blue: #007BFF;
-  --navy-blue:#091E3E;
-  --pure-black:#000000;
+:root {
+  --pure-white: #ffffff;
+  --soft-blue: #add8e6;
+  --bold-blue: #007bff;
+  --navy-blue: #091e3e;
+  --pure-black: #000000;
   --color-dark-black: #131010;
-  --lighter-gray:#4A4A4A;
-  --darker-gray:#333333;
-  --color-dark-gray:#121212;
-  --color-shade-blue: #5DADE2;
-  --color-light-gray:#E0E0E0;
-  --primary-font:"Roboto", sans-serif;
- --secondary-font:"Open Sans", sans-serif;
- --font-secondary:"Nunito", sans-serif;
- --accent-font: "Lato", sans-serif;
+  --lighter-gray: #4a4a4a;
+  --darker-gray: #333333;
+  --color-dark-gray: #121212;
+  --color-shade-blue: #5dade2;
+  --color-light-gray: #e0e0e0;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Open Sans", sans-serif;
+  --font-secondary: "Nunito", sans-serif;
+  --accent-font: "Lato", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -31,7 +31,6 @@ body {
   font-family: var(--primary-font);
   font-size: 1.6rem;
   overflow-x: hidden;
-
 }
 
 ul,
