@@ -12,6 +12,7 @@
   --color-light-gray:#E0E0E0;
   --primary-font:"Roboto", sans-serif;
  --secondary-font:"Open Sans", sans-serif;
+ --font-secondary:"Nunito", sans-serif;
  --accent-font: "Lato", sans-serif;
   scroll-behavior: smooth;
 }

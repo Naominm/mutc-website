@@ -1,7 +1,7 @@
 .header-section-parent{
     padding: 1.8rem;
     background-color: var( --navy-blue);
-    font-family: "Nunito", sans-serif;
+    font-family: var(--font-secondary);
     font-weight: 600;
     font-size: 1.4rem;
   color: var(--pure-white);
@@ -10,6 +10,11 @@
   justify-content: space-between;
  
   
+}
+@media screen and (max-width:62em) {
+    .header-section-parent{
+        display: none;
+    }  
 }
 .header-contact-container{
     display: flex;
@@ -27,3 +32,43 @@
     gap: 2rem;
     font-size: 1.6rem;
 }
+.header-navigation-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-shade-blue);
+    display: flex;
+    padding-inline: 10rem;
+    
+}
+.header-navigation-parent a{
+color: var(--pure-white);
+font-family: var(--font-secondary);
+font-weight: 400;
+}
+@media screen and (max-width:62em) {
+    .header-navigation-parent{
+        display: none;
+    } 
+}
+.logo-container{
+    width: 6rem;
+    height: 6rem;
+}
+.logo-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.navs{
+    display: flex;
+    gap: 8rem;
+   
+}
+.hamburger-menu-container {
+    display: flex;
+    font-size: 3rem;
+    line-height: 2rem;
+    padding: 0.5rem;
+}
+
