@@ -1,0 +1,34 @@
+.main-container{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.text-section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 2;
+    margin-left: 2rem;
+    color: var(--soft-blue);
+    font-size: 10rem;
+}
+.text-section h1{
+   
+}
+.video-wrapper{
+    width:50%;
+    height: auto;
+ 
+}
+.video-wrapper video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: 0;
+}

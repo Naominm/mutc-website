@@ -2,7 +2,7 @@ import LeadershipContents from "../../components/Hero/Hero";
 import ContactSection from "../../components/Form/Form";
 import "./Tracks.css"
 import "../Leadership/Leadership.css"
-import video from "../../assets/mutc-images/team.mp4"
+import video from "../../assets/data.mp4"
 import image1 from "../../assets/mutc-images/hero1.jpg"
 
 
@@ -61,12 +61,7 @@ function Tracks() {
 }
  function TracksHero(){
     return(
-        <div className="tracks-hero-sec">
-            <div className="text-section">
-            <LeadershipContents Heading="Our TRacks" Text='curated tracks for you' Video={video}/>
-            </div>
-         
-        </div>
+      <LeadershipContents Heading="Leading with Purpose" Text="Inspire. Empower. Achieve." Video={video}/>
     )
  }
  function TracksContainer({ title, description, index }: TracksContainerProps) {

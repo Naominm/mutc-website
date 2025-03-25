@@ -1,5 +1,5 @@
 
-
+import "./Hero.css"
 interface LeadershipContentsProps{
     Heading:string;
     Text:String;
@@ -14,7 +14,7 @@ function LeadershipContents({Heading, Text, Video}:LeadershipContentsProps){
             </div>
             <div className="video-section">
                 <div className="video-wrapper">
-                 <video src={Video}></video>
+                 <video src={Video} controls={false} autoPlay={true} muted={true} loop={true}></video>
                 </div>
             </div>
         </div>
