@@ -39,7 +39,7 @@ function HeroContents({ currentIndex }: { currentIndex: number }){
         <div className="hero-contents">
            
             <div className="hero-image-wrapper">
-            <div className="overlay"></div>
+            <div className="hero-overlay"></div>
           {
             heroData.map((item,index)=>(
                 <img

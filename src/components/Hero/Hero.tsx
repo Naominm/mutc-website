@@ -14,6 +14,7 @@ function LeadershipContents({Heading, Text, Video}:LeadershipContentsProps){
             </div>
             <div className="video-section">
                 <div className="video-wrapper">
+                    <div className="track-overlay"></div>
                  <video src={Video} controls={false} autoPlay={true} muted={true} loop={true}></video>
                 </div>
             </div>

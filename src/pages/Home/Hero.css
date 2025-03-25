@@ -12,7 +12,7 @@
     visibility: hidden;
 
     opacity: 0;
-    transition: opacity 2s ease-in-out, visibility 3s ease-in-out;
+    transition: opacity 3s ease-in-out, visibility 3s ease-in-out;
 }
 .hero-image-wrapper img.active {
   visibility: visible;
@@ -38,7 +38,7 @@
         top: 50%;
     }
 }
-.overlay {
+.hero-overlay {
     position: absolute;
     top: 0;
     left: 0;
