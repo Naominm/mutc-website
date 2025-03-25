@@ -1,8 +1,10 @@
 import LeadershipContents from "../../components/Hero/Hero";
+import ContactSection from "../../components/Form/Form";
 import "./Tracks.css"
 import "../Leadership/Leadership.css"
 import video from "../../assets/mutc-images/team.mp4"
 import image1 from "../../assets/mutc-images/hero1.jpg"
+
 
 const trackData: TrackData[] = [
     { 
@@ -51,6 +53,7 @@ function Tracks() {
                     <TracksContainer key={index} index={index} {...track} />
                 ))}
           </div>
+          <ContactSection/>
         </div>
      );
 }

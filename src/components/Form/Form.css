@@ -1,11 +1,14 @@
 .contact-page-container{
-    margin-top: 5rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .top-contact-container{
     display: flex;
-    justify-content: center;
-    margin-inline: 4rem;
-    gap: 5rem;
+   margin-top: 5rem;
+    gap: 10rem;
    
 }
 @media screen and (max-width:68em) {
@@ -145,27 +148,17 @@ textarea{
 }
 
 
-.bottom-contact-elements{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 10rem;
-}
+
 @media screen and (max-width:50em) {
     .bottom-contact-elements{
         gap: 2rem;
     }  
 }
-.office-contact{
-    margin-top: 5rem ;
-    display: flex;
 
-    flex-direction: column;
-    gap: 1.5rem;
-}
 .bottom-container{
-    margin-top: 5rem;
-    margin-left: 5rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 .form-subtitle{
     margin-top: 1rem;
@@ -199,32 +192,17 @@ textarea{
     margin-left: 5rem;
     margin-bottom: 10rem;
 }
-iframe{
- width: 550px; 
- height:550px ;
+.img-contact-wrapper{
+    width: 60rem; 
+ height:55rem ;
  border: none;
  border-radius: 1rem;
+}
+.img-contact-wrapper img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ border-radius: 1rem;
 
-}
-@media screen and (max-width:50em) {
-    iframe{
-        width: 500px; 
-        height:300px ;
-       
-       }
-}
-@media screen and (max-width:37.5em) {
-    iframe{
-        width: 400px; 
-        height:200px ;
-       
-       }
-}
-@media screen and (max-width:30em) {
-    iframe{
-        width: 300px; 
-        height:200px ;
-       
-       }
 }
 
