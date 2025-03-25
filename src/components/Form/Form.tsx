@@ -1,8 +1,5 @@
 
 import { ReactNode } from "react";
-import { MdEmail } from "react-icons/md";
-import { PiBuildingOfficeBold } from "react-icons/pi";
-import { IoCall } from "react-icons/io5";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter, FaSquareInstagram } from "react-icons/fa6";
 import contactImage from "../../assets/mutc-images/hero3.jpg"
@@ -12,12 +9,6 @@ import "./Form.css";
 interface SocialMediaProps {
     socialTitle?: string;
     SocialIcon?: ReactNode;
-}
-interface OfficeContactProps {
-  contactIcon: ReactNode; 
-  contactTitle: string; 
-  contactText?: string;   
-  contactDetail: string;   
 }
 
 function ContactSection() {
@@ -46,8 +37,6 @@ return(
       <div className="form-container-element">
         <div className="form-title">
           <h2>Lets Get In touch</h2>
-        </div>
-        <div className="form-subtitle">
         </div>
        <form className="formElement">
        <div className="form-name-elements">
