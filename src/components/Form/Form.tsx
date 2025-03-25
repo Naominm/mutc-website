@@ -36,7 +36,6 @@ return(
           <h2>Lets Get In touch</h2>
         </div>
         <div className="form-subtitle">
-          or just send an email to hello@zaphtours.com
         </div>
        <form className="formElement">
        <div className="form-name-elements">
@@ -82,7 +81,7 @@ return(
           <h2>We'd Love to Hear From you</h2>
         </div>
         <div className="form-subtitle">
-          or just send an email to hello@zaphtours.com
+          or just send an email to hello@ mutech club.com
         </div>
         <div className="bottom-contact-elements">
 <OfficeContact contactIcon={<MdEmail/>} contactTitle="Email Support" contactText="Our Team Respond Instantly" contactDetail="hello@zaphtours.com"/>
