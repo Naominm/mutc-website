@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoCall, IoMail } from "react-icons/io5";
 import { Link } from "react-router-dom";
@@ -7,9 +7,9 @@ import Icon from "../Icon/Icon";
 
 import "./Footer.css";
 
-interface FooterContactsProps{
-  FooterContactIcon:ReactNode;
-  Text:String;
+interface FooterContactsProps {
+  FooterContactIcon: ReactNode;
+  Text: String;
 }
 function FooterElement() {
   return (
@@ -24,57 +24,50 @@ function FooterContent() {
       <div className="footerHeader">
         <div className="header-col">
           <Icon />
-          <p className="column-text-sec">
-            muttech club text sec
-          </p>
+          <p className="column-text-sec">Dedicated to advancing members' knowledge in programming and technology</p>
         </div>
       </div>
       <div className="footerHeader">
         <div className="header-col">
           <h3>Events and News</h3>
-      
-            <ul>
-              <li>
-                <a href="./">Mutech Hackathon</a>
-              </li>
-              <li>
-                <a href="./">Hacker Night</a>
-              </li>
-              <li>
-                <a href="./">Tech Talk</a>
-              </li>
-              <li>
-                <a href="./">Weekly events</a>
-              </li>
-              <li>
-                <a href="./">Metting</a>
-              </li>
-            </ul>
-          
+
+          <ul>
+            <li>
+              <a href="./">Mutech Hackathon</a>
+            </li>
+            <li>
+              <a href="./">Hacker Night</a>
+            </li>
+            <li>
+              <a href="./">Tech Talk</a>
+            </li>
+            <li>
+              <a href="./">Weekly events</a>
+            </li>
+            <li>
+              <a href="./">Metting</a>
+            </li>
+          </ul>
         </div>
       </div>
       <div className="footerHeader">
         <div className="header-col">
           <h3>Quick Links</h3>
-          
-          <ul>
-  <li>
-    <Link to="/">Home</Link>
-  </li>
-  <li>
-    <a href="/">Leadership</a> 
-    
-  </li>
-  <li>
-    <Link to="/">Tracks</Link>
-  </li>
-  <li>
-    <Link to="/">Events</Link>
-  </li>
-  
-</ul>
 
-        
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <a href="/">Leadership</a>
+            </li>
+            <li>
+              <Link to="/">Tracks</Link>
+            </li>
+            <li>
+              <Link to="/">Events</Link>
+            </li>
+          </ul>
         </div>
       </div>
       <div className="footerHeader">
@@ -91,7 +84,7 @@ function FooterContent() {
     </div>
   );
 }
-function FooterContacts({ FooterContactIcon, Text }:FooterContactsProps) {
+function FooterContacts({ FooterContactIcon, Text }: FooterContactsProps) {
   return (
     <div className="footer-contacts-container">
       <div className="contacts-footer">
