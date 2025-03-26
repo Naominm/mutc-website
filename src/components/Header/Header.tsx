@@ -80,7 +80,7 @@ function Header() {
           className={({ isActive }) => (isActive ? "active-link link" : "link")}
           to="/Events"
         >
-         Events
+          Events
         </NavLink>
       </div>
       </div>
