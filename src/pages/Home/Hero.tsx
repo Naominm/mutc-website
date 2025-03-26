@@ -12,9 +12,10 @@ type HeroContentsProp={
 
 }
 const heroData: HeroContentsProp[] = [
-    { Image: Image1, Tagline: "Innovation for Prosperity", CallToAction: "Contact Us" },
-    { Image: Image2, Tagline: "Empowering the Future", CallToAction: "Discover More" },
-    { Image: Image3, Tagline: "Shaping Tomorrow", CallToAction: "Join Us" }
+    { Image: Image1, Tagline: "Driving Growth Through Cutting-edge Solutions", CallToAction: "Contact Us" },
+    { Image: Image2, Tagline: " Unlocking Potential Through Technology and Collaboration", CallToAction: "Discover More" },
+    { Image: Image3, Tagline: "Building a Better World with Forward-thinking Solutions", CallToAction: "Join Us" }
+    
 ];
 
 function HeroSection() {
