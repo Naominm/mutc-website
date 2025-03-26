@@ -53,8 +53,11 @@ outline: none;
     } 
 }
 .logo-container{
-    width: 6rem;
+    display: flex;
+    align-items: center;
+    width: 7rem;
     height: 6rem;
+    color: white;
 }
 .logo-container img{
     width: 100%;

@@ -56,6 +56,7 @@ function Header() {
         <div className="header-navigation-parent">
         <div className="logo-container">
              <img src={Logo} alt="" />
+             <p>Mutc</p>
                 </div>
                 <div className="navs">
         <NavLink
