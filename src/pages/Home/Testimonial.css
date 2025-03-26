@@ -23,7 +23,7 @@
   }
   .card-content:hover{
     background-color: var(--soft-blue);
-    transform: translateX(-3rem);
+    transform: translateY(-1rem);
   }
 
   .cards-content-container-element{
