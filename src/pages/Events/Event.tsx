@@ -1,6 +1,7 @@
 import { FaClock, FaMapMarkerAlt, FaUser } from "react-icons/fa";
 import LeadershipContents from "../../components/Hero/Hero";
 import Image2 from "../../assets/mutc-images/hero2.jpg"
+import video from "../../assets/data.mp4"
 import "./Event.css"
 
 import FooterElement from "../../components/Footer/Footer";
@@ -93,7 +94,7 @@ function Events() {
 function EventsHero(){
   return(
     <div className="events-hero-section">
-     <LeadershipContents Heading="Grow Your Network and Skills with our Event" Text="events" Video=""/>
+     <LeadershipContents Heading="Grow Your Network and Skills with our Event" Text="events" Video={video}/>
     </div>
   )
 }
