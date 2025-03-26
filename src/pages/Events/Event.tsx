@@ -1,6 +1,11 @@
 import { FaClock, FaMapMarkerAlt, FaUser } from "react-icons/fa";
 import LeadershipContents from "../../components/Hero/Hero";
-import Image2 from "../../assets/mutc-images/hero2.jpg"
+import image2 from "../../assets/mutc-images/cyberc.jpg"
+import image3 from "../../assets/mutc-images/uiux.jpg"
+import image4 from "../../assets/mutc-images/web.jpg"
+import image5 from "../../assets/mutc-images/mobile.jpg"
+import image6 from "../../assets/mutc-images/cloud.jpg"
+import image7 from "../../assets/mutc-images/ppl.jpg"
 import video from "../../assets/data.mp4"
 import "./Event.css"
 
@@ -15,7 +20,8 @@ interface eventCardProps{
   learnItems:string[],
   bringItems:string[],
   header:string,
-  header2:string
+  header2:string,
+  image:string
 }
 
 function Events() {
@@ -32,6 +38,7 @@ function Events() {
         learnItems={["Ethical Hacking Techniques", "Secure Coding Practices"]}
         header2="What to Bring"
         bringItems={["Laptop", " Notebook"]}
+        image={image2}
       />
       <EventCard 
   title="UI/UX" 
@@ -42,6 +49,7 @@ function Events() {
   learnItems={["Wireframing", "Prototyping", "User Research"]}
   header2="What to Bring"
   bringItems={["Laptop", "Notebook"]}
+  image={image3}
 />
 
 <EventCard 
@@ -53,6 +61,7 @@ function Events() {
   learnItems={["HTML", "CSS", "JavaScript", "React"]}
   header2="What to Bring"
   bringItems={["Laptop", "Notebook"]}
+  image={image4}
 />
 
 <EventCard 
@@ -64,6 +73,7 @@ function Events() {
   learnItems={["Flutter", "React Native", "Mobile UI Design"]}
   header2="What to Bring"
   bringItems={["Laptop", "Notebook"]}
+  image={image5}
 />
 
 <EventCard 
@@ -75,6 +85,7 @@ function Events() {
   learnItems={["AWS", "Azure", "Google Cloud"]}
   header2="What to Bring"
   bringItems={["Laptop", "Notebook"]}
+  image={image6}
 />
 
 <EventCard 
@@ -86,6 +97,7 @@ function Events() {
   learnItems={["Power BI", "Power Apps", "Power Automate"]}
   header2="What to Bring"
   bringItems={["Laptop", "Notebook"]}
+  image={image7}
 />
 <FooterElement/>
       </div>
@@ -108,12 +120,12 @@ function EventCta(){
   )
 }
 
-function EventCard({ title, Description, location, lead, learnItems, bringItems,header,header2 }:eventCardProps){
+function EventCard({ title, Description, location, lead, learnItems, bringItems,header,header2,image }:eventCardProps){
   return(
     <div className="event-card">
      <div className="event-image-section">
       <div className="event-image-wrapper">
-        <img src={Image2} alt="" />
+        <img src={image} alt="" />
         
       </div>
      </div>
