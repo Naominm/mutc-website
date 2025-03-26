@@ -31,6 +31,60 @@ function Events() {
         header2="What to Bring"
         bringItems={["Laptop", " Notebook"]}
       />
+      <EventCard 
+  title="UI/UX" 
+  Description="Every Tuesday from 5pm to 8pm" 
+  location="Computer Lab F04" 
+  lead="By Manase Gunga"
+  header="What to Learn"
+  learnItems={["Wireframing", "Prototyping", "User Research"]}
+  header2="What to Bring"
+  bringItems={["Laptop", "Notebook"]}
+/>
+
+<EventCard 
+  title="Web Development" 
+  Description="Every Wednesday from 6pm to 9pm" 
+  location="Computer Lab F04" 
+  lead="By Carolyne Githenduka"
+  header="What to Learn"
+  learnItems={["HTML", "CSS", "JavaScript", "React"]}
+  header2="What to Bring"
+  bringItems={["Laptop", "Notebook"]}
+/>
+
+<EventCard 
+  title="Mobile Apps Development" 
+  Description="Every Thursday from 4pm to 7pm" 
+  location="Computer Lab F04" 
+  lead="By Stanley Amunze"
+  header="What to Learn"
+  learnItems={["Flutter", "React Native", "Mobile UI Design"]}
+  header2="What to Bring"
+  bringItems={["Laptop", "Notebook"]}
+/>
+
+<EventCard 
+  title="Cloud Engineering" 
+  Description="Every Friday from 3pm to 6pm" 
+  location="Computer Lab F04" 
+  lead="By Paul Karanja"
+  header="What to Learn"
+  learnItems={["AWS", "Azure", "Google Cloud"]}
+  header2="What to Bring"
+  bringItems={["Laptop", "Notebook"]}
+/>
+
+<EventCard 
+  title="Power Platform" 
+  Description="Every Saturday from 1pm to 4pm" 
+  location="Computer Lab F04" 
+  lead="By Evyonn Mbithe"
+  header="What to Learn"
+  learnItems={["Power BI", "Power Apps", "Power Automate"]}
+  header2="What to Bring"
+  bringItems={["Laptop", "Notebook"]}
+/>
       </div>
      );
 }
@@ -44,7 +98,7 @@ function EventsHero(){
 function EventCta(){
   return(
     <div className="event-btn">
-      <button>All Events</button>
+      <button className="active-btn">All Events</button>
       <button>Nearest Events</button>
       <button>Latest Events</button>
     </div>
@@ -57,6 +111,7 @@ function EventCard({ title, Description, location, lead, learnItems, bringItems,
      <div className="event-image-section">
       <div className="event-image-wrapper">
         <img src={Image2} alt="" />
+        
       </div>
      </div>
      <div className="event-text-section">
