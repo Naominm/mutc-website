@@ -17,6 +17,12 @@
     padding: 2rem;
     gap: 4rem;
 }
+@media screen and (max-width: 56.25em) {
+    .about-contents{
+        flex-wrap: wrap;
+        justify-content: center;
+    }  
+}
 .image-wrapper img{
 width: 100%;
 height: 100%;
@@ -30,6 +36,7 @@ border-radius: 1rem;
 }
 .text-container-2{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 4rem;
     
