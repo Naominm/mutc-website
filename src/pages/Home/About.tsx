@@ -62,9 +62,24 @@ function AboutSectionContent({Image, TextContent}:AboutSectionContentProps){
   
         </div>
         <div className="text-container-2">
-    <VisionMision FlatIcon={FlatImage} Text='our mission'description='delivering cutting-edge services and unmatched expertise to meet the diverse needs'/>
-    <VisionMision FlatIcon={FlatImage2} Text='values'description='delivering cutting-edge services and unmatched expertise to meet the diverse needs'/>
-    <VisionMision FlatIcon={FlatImage3} Text='objective ' description='delivering cutting-edge services and unmatched expertise to meet the diverse needs'/>
+<VisionMision 
+    FlatIcon={FlatImage} 
+    Text='Our Mission' 
+    description='To empower individuals and organizations by delivering innovative technology solutions that drive growth, efficiency, and positive impact.'
+      />
+
+<VisionMision 
+    FlatIcon={FlatImage2} 
+    Text='Our Vision' 
+    description='To be a global leader in technology solutions, inspiring innovation and transforming industries for a sustainable future.'
+  />
+
+<VisionMision 
+    FlatIcon={FlatImage3} 
+    Text='Our Values' 
+    description='We are committed to integrity, innovation, collaboration, and customer-centric solutions to deliver outstanding results.'
+/>
+
   </div>
         </div>
     )

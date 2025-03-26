@@ -51,7 +51,7 @@ border-radius: 1rem;
     margin-top: 5rem;
 }
 .m-v-containers:hover{
-    background-color: var(--soft-blue);
+    background-color: var(--color-shade-blue);
 }
 .text-c{
     font-weight: 600;
