@@ -1,6 +1,5 @@
-import { FaLinkedin, FaGithub, FaTwitter,FaFacebookF,FaInstagram } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import video from "../../assets/globe.mp4"
+import { FaLinkedin, FaTwitter,FaFacebookF,FaInstagram } from "react-icons/fa";
+import video from "../../assets/data.mp4"
 import Image1 from "../../assets/mutc-images/user1.jpg"
 import Image2 from "../../assets/mutc-images/user2.jpg"
 import Image3 from "../../assets/mutc-images/user3.jpg"
