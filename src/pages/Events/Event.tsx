@@ -1,8 +1,9 @@
-import { FaCalendarAlt, FaClock, FaMapMarkerAlt, FaUser } from "react-icons/fa";
+import { FaClock, FaMapMarkerAlt, FaUser } from "react-icons/fa";
 import LeadershipContents from "../../components/Hero/Hero";
 import Image2 from "../../assets/mutc-images/hero2.jpg"
 import "./Event.css"
-import { li } from "framer-motion/client";
+
+import FooterElement from "../../components/Footer/Footer";
 
 
 interface eventCardProps{
@@ -85,6 +86,7 @@ function Events() {
   header2="What to Bring"
   bringItems={["Laptop", "Notebook"]}
 />
+<FooterElement/>
       </div>
      );
 }

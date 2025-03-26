@@ -14,6 +14,8 @@
     background-color:var(--color-shade-blue);
 }
 button{
+    background-color: var( --color-light-gray);
+    cursor: pointer;
     padding: 1.2rem;
     border-radius: 10rem;
     border: none;
@@ -28,7 +30,7 @@ button{
     gap: 3rem;
     margin-top: 4rem;
     margin-left: 15rem;
-    margin-bottom: 2rem;
+    margin-bottom: 10rem;
     width: 70%;
     padding-block: 2rem;
     border-radius: 1rem;
