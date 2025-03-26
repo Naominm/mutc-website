@@ -3,7 +3,7 @@ import ContactSection from "../../components/Form/Form";
 import "./Tracks.css"
 import "../Leadership/Leadership.css"
 import video from "../../assets/data.mp4"
-import image2 from "../../assets/mutc-images/cyber.jpg"
+import image2 from "../../assets/mutc-images/cyberc.jpg"
 import image3 from "../../assets/mutc-images/uiux.jpg"
 import image4 from "../../assets/mutc-images/web.jpg"
 import image5 from "../../assets/mutc-images/mobile.jpg"

@@ -113,16 +113,23 @@
     font-family: var(  --font-secondary);
 }
 .social-icons{
+    width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 2rem;
-    margin-bottom: 1rem;
-    transition: all 2s;
+    margin-bottom: 1.2rem;
+
 }
-.social-icons:hover{
-    color: var(--soft-blue);
-    transform: translateY(-1rem);
+.social-icons svg{
+    color:var(--pure-white);
+    font-size: 2.5rem;
+    transition: all 1s;
+}
+.social-icons svg:hover{
+    color: var(  --color-dark-black);
 }
 .social-icons a{
 text-decoration: none;
-color: var(--color-blue);
+color: var(--color-shade-blue);
 }

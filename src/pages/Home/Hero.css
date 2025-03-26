@@ -24,7 +24,7 @@
 .hero-text-content{
   z-index: 2;
     position: absolute;
-    top: 60%;
+    top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--pure-white);
@@ -56,6 +56,7 @@ z-index: 1;
     
   }
 
+
   .btn1{
 font-family: inherit;
 font-weight: 700;
@@ -66,6 +67,11 @@ border-radius: 0.6rem;
     padding: 2rem;
     width: 15rem;
     background-color: var(--color-shade-blue);
+    color: var(--pure-white);
+  }
+  .btn1:hover{
+    background-color:var(--soft-blue);
+    color: var(  --color-dark-black);
   }
   .btn2{
     font-family: inherit;

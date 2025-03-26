@@ -50,7 +50,8 @@ padding-inline: 3rem ;
     background-color: var(  --color-shade-blue);
 }
 .tracks-cta:hover{
-    background-color:var(  --soft-blue);
+    background-color:var( --bold-blue);
+    color: var(--pure-white);
 }
 
 

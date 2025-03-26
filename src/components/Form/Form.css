@@ -63,6 +63,7 @@
 }
 
 .label-container{
+    font-size: 1rem;
     font-weight: 600;
     margin-bottom: 1rem;
 }
@@ -75,6 +76,7 @@ input{
    padding: 1rem;
    border: none;
    outline: none;
+   font-size: 1rem;
 }
 
 @media screen and (max-width:26.25em) {
@@ -117,12 +119,16 @@ textarea{
     padding: 1.5rem;
     border-radius: 1.1rem;
     margin-block: 2rem;
-    width: 40rem;
+    width: 20rem;
     border: none;
     outline: none;
     font-family: inherit;
     font-weight: 500;
-    background-color: var(--soft-blue);
+    background-color: var( --color-shade-blue);
+}
+.submit-btn:hover{
+    background-color:var( --bold-blue);
+    color: var(--pure-white);
 }
 @media screen and (max-width:50em) {
     .submit-btn{
@@ -170,6 +176,7 @@ textarea{
     gap: 2rem;
     box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
     border-radius: 0.4rem;
+    font-size: 1rem;
 }
 
 
@@ -191,12 +198,12 @@ textarea{
     color: var(--color-dark-black);
 }
 .social-media svg :hover{
-    color: var(--soft-blue);
+    color: var(--bold-blue);
    
 }
 .img-contact-wrapper{
-    width: 60rem; 
- height:40rem ;
+    width: 55rem; 
+ height:auto ;
  border: none;
  border-radius: 1rem;
 }
@@ -211,4 +218,32 @@ textarea{
     margin-bottom: 1rem;
     text-align: center;
 }
+.track-element {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
 
+label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4A4A4A;
+    width: 40rem;
+}
+
+select {
+    padding: 10px 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    color: var(--color-dark-black);
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+select:focus {
+    border-color: var(--soft-blue);
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}

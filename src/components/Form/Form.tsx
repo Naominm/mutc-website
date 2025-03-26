@@ -40,22 +40,10 @@ return(
         </div>
        <form className="formElement">
        <div className="form-name-elements">
-          <div className="form-block-elements">
-           
-         <div className="label-container">
-         <label htmlFor="firstName">FirstName</label>
-         </div>
-    
-          <input type="text" className="name-input-input" name="firstName" placeholder="Enter your first name" required />
-         
-          </div>
-          <div className="form-block-elements">
-                 <div className="label-container">
-                 <label htmlFor="LastName">Last Name</label>
-                 </div>
-   
-          <input type="text" className="name-input-input"  placeholder=" Enter Your LastName"/>
-          </div>
+       <div className="email-element">
+          <label htmlFor="email">Full Name</label>
+          <input type="email" placeholder="Enter Your Email Address" />
+        </div>
         
       
         </div>
@@ -63,15 +51,25 @@ return(
           <label htmlFor="email">Email Address</label>
           <input type="email" placeholder="Enter Your Email Address" />
         </div>
+      
         <div className="email-element">
-          <label htmlFor="subject">Subject</label>
-          <input type="text" placeholder="Enter Your Subject" />
+          <label htmlFor="subject">Course</label>
+          <input type="text" placeholder="Enter Your course" />
         </div>
-        <div className="message-element">
-          <label htmlFor="message">Message</label>
-          <textarea name="Message" id="message">
-
-          </textarea>
+        <div className="email-element">
+          <label htmlFor="subject">Year of study</label>
+          <input type="number" placeholder="Enter Your Email" />
+        </div>
+        <div className="track-element">
+          <label htmlFor="track">Track</label>
+         <select name="track" id="">
+          <option value="Cybersecurity">Cyber Security</option>
+          <option value="UI UX Design">UI UX Design</option>
+          <option value="Web Development">Web Development</option>
+          <option value="Mobile Apps Development">Mobile Apps Development</option>
+          <option value="Cloud Engineering">Cloud Engineering</option>
+          <option value="Power Platform">Power Platform</option>
+         </select>
         </div>
         <button className="submit-btn">Submit Form</button>
        </form>

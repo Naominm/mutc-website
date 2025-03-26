@@ -1,6 +1,6 @@
 .header-section-parent{
     padding: 1.8rem;
-    background-color: var( --navy-blue);
+    background-color: var(--pure-white);
     font-family: var(--font-secondary);
     font-weight: 600;
     font-size: 1.4rem;
@@ -10,6 +10,12 @@
   justify-content: space-between;
  
   
+}
+.header-section-parent svg{
+    color:var( --bold-blue);
+}
+.header-socials svg{
+    color:var( --bold-blue);
 }
 @media screen and (max-width:62em) {
     .header-section-parent{
@@ -24,6 +30,7 @@
 .header-contacts{
   display: flex;
   gap: 3rem;
+  color:var(--color-shade-blue);
 
 }
 .header-socials{
@@ -31,6 +38,10 @@
     justify-content:left;
     gap: 2rem;
     font-size: 1.6rem;
+    
+}
+.header-socials svg{
+    color: var(--bold-blue);
 }
 .header-navigation-parent{
     display: flex;
