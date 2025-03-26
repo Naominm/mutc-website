@@ -102,3 +102,6 @@ justify-content: center;
     color: var(--pure-white);
     font-weight: 800;
 }
+.btn-class button:hover{
+    background-color:var(--soft-blue);
+}
