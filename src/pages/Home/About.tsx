@@ -22,7 +22,7 @@ function AboutSection() {
     return ( 
         <section className="about-section">
             <h1>Mut Tech Club </h1>
-            <AboutSectionContent Image={AboutImage} TextContent=" TechClub stands as the premier global IT solution provider, delivering cutting-edge services and unmatched expertise to meet the diverse needs of industries worldwide." />
+            <AboutSectionContent Image={AboutImage} TextContent=" Murang'a University Tech Club (MUTC) is the premier technology club at Murang'a University, dedicated to advancing members' knowledge in programming and technology. " />
         </section>
      );
 }

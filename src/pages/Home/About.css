@@ -34,6 +34,12 @@ border-radius: 1rem;
     width: 50%;
     line-height: 4rem;
 }
+@media screen and (max-width: 50em) {
+    .text-container{
+        width: 80%;
+      text-align: center;
+    }
+}
 .text-container-2{
     display: flex;
     flex-wrap: wrap;

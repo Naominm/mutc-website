@@ -109,7 +109,7 @@
   }
   
   .active-link {
-    border-bottom: 2px solid var(--pure-white);
+    color:var( --lighter-gray);
   }
   
   .hamburger-menu-container {
