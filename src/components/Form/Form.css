@@ -9,6 +9,7 @@
 }
 .top-contact-container{
     display: flex;
+    align-items: center;
    margin-top: 5rem;
     gap: 10rem;
    
@@ -187,10 +188,16 @@ input{
    
 }
 .img-contact-wrapper{
-    width: 55rem; 
+    width: 55%; 
  height:auto ;
  border: none;
  border-radius: 1rem;
+}
+@media screen and (max-width:68em) {
+    .img-contact-wrapper{
+        width: 80%;
+    }
+    
 }
 .img-contact-wrapper img{
  width: 100%;

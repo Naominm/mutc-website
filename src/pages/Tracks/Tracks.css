@@ -20,7 +20,8 @@
 }
 @media screen and (max-width:62.5em) {
     .tracks-image-wrapper{
-width: 100%;
+     width: 90%;
+     margin-left: 1rem;
     }
 }
 .tracks-image-wrapper img{
@@ -38,6 +39,9 @@ width: 100%;
 .tracks-description{
 line-height: 3rem;
 padding-inline: 3rem ;
+display: flex;
+justify-content: center;
+text-align: center;
 
 }
 .tracks-cta{
