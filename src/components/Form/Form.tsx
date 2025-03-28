@@ -39,14 +39,14 @@ return(
           <h2>Lets Get In touch</h2>
         </div>
        <form className="formElement">
-       <div className="form-name-elements">
+      
        <div className="email-element">
           <label htmlFor="email">Full Name</label>
           <input type="email" placeholder="Enter Your Email Address" />
         </div>
         
       
-        </div>
+       
         <div className="email-element">
           <label htmlFor="email">Email Address</label>
           <input type="email" placeholder="Enter Your Email Address" />

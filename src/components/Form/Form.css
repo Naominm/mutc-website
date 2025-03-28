@@ -34,7 +34,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
     }  
 }
 @media screen and (max-width:25em) {
@@ -77,52 +76,32 @@ input{
    border: none;
    outline: none;
    font-size: 1rem;
+   width: 100%;
+}
+@media screen and (max-width: 68em) {
+    input{
+        width: 100%!important
+    }
 }
 
-@media screen and (max-width:26.25em) {
-    .name-input-input{
-        width:20rem;
-    }
-    
-}
 .email-element ,.message-element{
     display: flex;
     flex-direction: column;
-}
-.email-element input{
-    width:40rem ;
-}
-@media screen and (max-width:26.25em) {
-    .email-element input{
-        width:20rem ;
-    }  
-}
-.message-element{
-    width: 40rem;
-    border-radius: 2rem;
-   
-}
-@media screen and (max-width:26.25em) {
-    .message-element{
-        width: 20rem;
-        border-radius: 2rem;
-       
-    } 
+    width: 80%;
 }
 
-textarea{
-    font-family: inherit;
-    color: inherit;
-    min-height: 10rem;
-}
+
+
+
 .submit-btn{
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 1.1rem;
     margin-block: 2rem;
-    width: 20rem;
+    width: 70%;
     border: none;
     outline: none;
     font-family: inherit;
+    font-size: 1rem;
     font-weight: 500;
     background-color: var( --color-shade-blue);
 }
@@ -132,12 +111,12 @@ textarea{
 }
 @media screen and (max-width:50em) {
     .submit-btn{
-        width: 30rem;
+        width: 60%;
     }
 }
 @media screen and (max-width:25em) {
     .submit-btn{
-        width: 20rem;
+        width: 90%;
     }
 }
 
@@ -170,6 +149,8 @@ textarea{
     border-radius: 50%;
 }
 .formElement{
+    padding-top: 4rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -179,7 +160,11 @@ textarea{
     font-size: 1rem;
 }
 
-
+@media screen and (max-width:68em) {
+    .formElement{
+       width: 100%;
+    }    
+    }
 
 .social-media{
     display: flex;
@@ -222,14 +207,24 @@ textarea{
     display: flex;
     flex-direction: column;
     gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-label {
+ .track-element label {
     font-size: 1rem;
     font-weight: 600;
     color: #4A4A4A;
-    width: 40rem;
+    width: 100%;
+   
 }
+@media screen and (max-width:68rem) {
+    .track-element label {
+       text-align: center;
+    }
+}
+
 
 select {
     padding: 10px 12px;
@@ -241,6 +236,11 @@ select {
     cursor: pointer;
     outline: none;
     transition: border 0.3s ease;
+}
+@media screen and (max-width:68rem) {
+    select{
+        width: 100%;
+    }
 }
 
 select:focus {

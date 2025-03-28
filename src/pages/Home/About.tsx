@@ -87,14 +87,14 @@ function AboutSectionContent({Image, TextContent}:AboutSectionContentProps){
 
 function VisionMision({FlatIcon,Text,description}:VisionMisionProps){
     return(
-        <div className="parent-v">
-            <div className="m-v-containers">
-                <div className="flat-image-wrapper">
-                    <img src={FlatIcon} alt="" />
-                </div>
-            <p className="text-c">{Text}</p>
-            <p className='text-desc-m-v'>{description}</p>
-            </div>
+     <div className="parent-v">
+     <div className="m-v-containers">
+    <div className="flat-image-wrapper">
+     <img src={FlatIcon} alt="" />
+     </div>
+    <p className="text-c">{Text}</p>
+     <p className='text-desc-m-v'>{description}</p>
+     </div>
        
         </div>
     )
